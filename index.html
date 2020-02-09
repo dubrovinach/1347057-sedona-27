@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <div class="wrapper">
   	<header>
   		<nav class="nav">
   			<ul class="nav__list nav__list--left">
@@ -30,7 +31,7 @@
   		</nav>
   	</header>
     <main>
-      <h1>Город Седона</h1>
+      <h1 class="visually-hidden">Город Седона</h1>
       <section class="promo">
         <img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в великолепную Седону" class="promo__pic">
       </section>
@@ -41,7 +42,7 @@
       <section class="present">
         <div class="present__row">
           <h2 class="present__head">Настоящий городок</h2>
-          <p class="present__number">-№1-</p>
+          <p class="present__number">- №1 -</p>
           <p class="present__desc">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
         <div class="present__container">
@@ -67,11 +68,11 @@
           </ul>
         </div>
         <div class="showplace">
-          <span class="showplace__wrap">
+          <div class="showplace__wrap">
             <h2 class="showplace__head">Там есть<br>мост дьявола</h2>
-            <p class="showplace__number">-№2-</p>
+            <p class="showplace__number">- №2 -</p>
             <p class="showplace__desc">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-          </span>
+          </div>
           <span class="showplace__container">
             <img src="img/bridge.jpg" width="800" height="256" alt="Картинка мост дьявола" class="showplace__image">
           </span>
@@ -80,17 +81,17 @@
           <ul class="advantages__list">
             <li class="advantages__item">
               <h3 class="advantages__head">Небольшая площадь</h3>
-              <p class="advantages__number">-№3-</p>
+              <p class="advantages__number">- №3 -</p>
               <p class="advantages__desc">Все достопримечательности находятся орчень близко</p>
             </li>
             <li class="advantages__item">
               <h3 class="advantages__head">Красивая дорога</h3>
-              <p class="advantages__number">-№4-</p>
+              <p class="advantages__number">- №4 -</p>
               <p class="advantages__desc">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
             <li class="advantages__item">
               <h3 class="advantages__head">Мало туристов</h3>
-              <p class="advantages__number">-№5-</p>
+              <p class="advantages__number">- №5 -</p>
               <p class="advantages__desc">Большинство едет в гранд каньон и толпится там</p>
             </li>
           </ul>
@@ -113,7 +114,7 @@
           <label for="adults" class="form__adults">Взрослые:</label>
             <button type="button" class="form__button">-</button>
             <input type="number" name="adults" id="adults" value="2">
-            <button type="button" class="form__plus">+</button>
+            <button type="button" class="form__button">+</button>
           <label for="child">Дети:</label>
             <button type="button" class="form__button">-</button>
             <input type="number" name="child" id="child" value="0">
@@ -134,21 +135,21 @@
           <div class="social__wrapper">
             <li class="social__item">
               <a href="#" class="social__link">
-                <img src="img/twitter.svg" width="17" height="15" alt="Иконка твиттер"  class="social__icon">
+                <img src="img/twitter.svg" width="17" height="15" alt="Иконка твиттер"  class="social__tw">
               </a>
             </li>
           </div>
           <div class="social__wrapper">
             <li class="social__item">
               <a href="" class="social__link">
-                <img src="img/facebook.svg" width="12" height="22" alt="Иконка фэйсбук"  class="social__icon">
+                <img src="img/facebook.svg" width="12" height="22" alt="Иконка фэйсбук"  class="social__fc">
               </a>
             </li>
           </div>
           <div class="social__wrapper">
             <li class="social__item">
               <a href="" class="social__link">
-                <img src="img/youtube.svg" width="20" height="16" alt="Иконка ютуб"  class="social__icon">
+                <img src="img/youtube.svg" width="20" height="16" alt="Иконка ютуб"  class="social__yt">
               </a>
             </li>
           </div>
@@ -161,5 +162,6 @@
         </a>
       </div>
     </footer>
+    </div>
   </body>
 </html>
