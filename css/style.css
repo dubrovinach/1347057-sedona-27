@@ -1,0 +1,426 @@
+body{
+  font-family: PTSans, Arial, Helvetica, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.nav{
+
+}
+
+nav a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav__list{
+  font-size: 14px;
+  list-style: none;
+  line-height: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__link:hover{
+  color: #81b3d2;
+}
+
+.nav__link:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.promo{
+  background-color: #81b3d2;
+  background-image: url(../img/background-photo.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 773px;
+  text-align: center;
+}
+
+.intro{
+  line-height: 26px;
+}
+
+.intro__head{
+
+}
+
+.intro__desc{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.present{
+
+}
+
+.present__row{
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.present__head{
+
+}
+
+.present__number, .present__desc{
+font-size: 14px;
+font-weight: normal;
+}
+
+.offers{
+line-height: 21px;
+}
+
+.offers__list{
+  list-style: none;
+}
+
+.offers__head{
+
+}
+
+.offers__desc{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.showplace__wrap{
+  background-color: #81b3d2;
+  color: #ffffff;
+}
+
+.showplace__number, .showplace__desc{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.advantages{
+  background-color: #eeeeee;
+  line-height: 21px;
+}
+
+.advantages__list{
+  list-style: none;
+}
+
+.advantages__number, .advantages__desc{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.interested{
+
+}
+
+.interested__name{
+  line-height: 36px;
+}
+
+.interested__desc{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.interested__button{
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+  color: #ffffff;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+}
+
+.interested__button:hover{
+  background-color: #604e43;
+}
+
+.interested__button:active{
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form{
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.form__button{
+  color: #cacaca;
+}
+
+.form__button:hover{
+  color: #000000;
+}
+
+.form__button:active{
+  color: #81b3d2;
+}
+
+#checkin:hover{
+  background-color: #ebebeb;
+}
+#checkout:hover{
+  background-color: #ebebeb;
+}
+#checkout:focus{
+  border: 2px solid #e5e5e5;
+}
+#checkin:focus{
+  border: 2px solid #e5e5e5;
+}
+
+.form__submit{
+  width: 458px;
+  height: 58px;
+  background-color: #81b3d2;
+  color: #ffffff;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+}
+
+.form__submit:hover{
+  background-color: #669ec0;
+}
+
+.form__submit:active{
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.map{
+  text-align: center;
+}
+
+.footer__hashtag, .footer__phone{
+  text-decoration: none;
+  color: #000000;
+  line-height: 26px;
+}
+
+.social__list{
+  list-style: none;
+}
+
+.social__wrapper{
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social__wrapper:hover{
+  background-color: #669ec0;
+}
+
+.social__wrapper:active{
+  background-color: #5496bd;
+}
+
+.social__tw{
+margin-top: 17px;
+margin-left: 15px;
+margin-bottom: 16px;
+margin-right: 14px;
+}
+
+.social__fc{
+  margin-top: 13px;
+  margin-left: 17px;
+  margin-bottom: 13px;
+  margin-right: 17px;
+  }
+
+  .social__yt{
+    margin-top: 16px;
+    margin-left: 13px;
+    margin-bottom: 16px;
+    margin-right: 13px;
+    }
+
+    .social__link:active{
+      opacity: 0.3;
+    }
+
+
+.website-by__head {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/*Страница отелей*/
+
+.filter{
+background-color: #81b3d2;
+background-image: url(../img/filter-background.jpg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.filter__fieldset{
+  color: #ffffff;
+  line-height: 21px;
+  border: none;
+}
+
+.filter__legend{
+  font-size: 16px;
+}
+
+.filter__label{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#min, #max{
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.filter__button{
+  width: 133px;
+  height: 32px;
+  border: solid 2px #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.sort{
+  border-bottom: 1px solid #cacaca;
+}
+
+.sort-search{
+  line-height: 26px;
+}
+
+.sort__assortment{
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+.sort__choose{
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sort__choose:hover{
+  color: #81b3d2;
+}
+
+.sort__choose:active{
+  color: #000000;
+}
+
+.results{
+  list-style: none;
+}
+
+.results__head{
+  text-decoration: none;
+  color: #000000;
+  line-height: 26px;
+}
+
+.results__head:hover{
+  color: #81b3d2;
+}
+
+.results__head:active{
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.results__desc, .results__rating{
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+}
+
+.results__link{
+  height: 27px;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.results__link:active{
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.results__button{
+  height: 27px;
+  border: none;
+}
+
+.results__button--blue{
+  background-color: #81b3d2;
+}
+
+.results__button--blue:hover{
+  background-color: #669ec0;
+}
+
+.results__button--blue:active{
+  background-color: #5496bd;
+}
+
+.results__button--brown{
+  background-color: #766357;
+}
+
+.results__button--brown:hover{
+  background-color: #604e43;
+}
+
+.results__button--brown:active{
+  background-color: #503e33;
+}
+
+.results__item{
+  border-bottom: 1px solid #cacaca;
+}
+
+@font-face{
+  font-family: PTSans;
+  src: url(../fonts/web/ptsans.woff);
+  src: url(../fonts/web/ptsans.woff2);
+  src: url(../fonts/web/ptsansbold.woff);
+  src: url(../fonts/web/ptsansbold.woff2);
+}
+
