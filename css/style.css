@@ -36,11 +36,11 @@ body{
 }
 
 .nav__link{
-  padding-top: 16px;
+  padding-top: 13px;
   padding-bottom: 18px;
   text-decoration: none;
   color: #000000;
-  width: 239px;
+  width: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,6 +69,7 @@ color: rgba(0, 0, 0, 0.3);
 .promo{
   background-color: #81b3d2;
   background-image: url(../img/background-photo.jpg);
+  background-position: right 0 top -56px;
   background-repeat: no-repeat;
   height: 510px;
   text-align: center;
@@ -89,16 +90,18 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .intro{
+  padding-top: 56px;
+  padding-left: 350px;
+  padding-right: 350px;
   background-color: #ffffff;
   line-height: 26px;
-  padding-top: 61px;
 }
 
 .intro__head{
   font-size: 21px;
   margin: 0;
   text-align: center;
-  margin-bottom: 38px;
+  margin-bottom: 27px;
 }
 
 .intro__desc{
@@ -106,7 +109,7 @@ color: rgba(0, 0, 0, 0.3);
   font-size: 14px;
   margin: 0;
   text-align: center;
-  padding-bottom: 56px;
+  padding-bottom: 52px;
 }
 
 .present__row,
@@ -120,17 +123,16 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .present__wrapper{
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 
 .present__head{
+  margin-top: 47px;
+  margin-left: 75px;
+  max-width: 150px;
   font-size: 21px;
-  margin: 0;
 }
 
 .present__desc{
@@ -138,8 +140,8 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .present__number{
-  margin-top: 29px;
-  margin-bottom: 32px;
+  margin-top: 23px;
+  margin-bottom: 21px;
 }
 
 .present__number, .present__desc{
@@ -147,16 +149,16 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .offers{
+  padding-top: 44px;
+  padding-bottom: 67px;
   margin: 0;
-  padding-top: 56px;
-  padding-bottom: 86px;
   background-color: #ffffff;
   line-height: 21px;
   text-align: center;
 }
 
+
 .offers__list{
-  padding: 0;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -164,19 +166,31 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .offers__item{
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.offers__item--size{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.offers__pic{
+  width: 75px;
+  height: 80px;
+}
+
 .offers__head{
   font-size: 21px;
-  margin: 0;
-  margin-top: 29px;
-  margin-bottom: 26px;
+  margin-top: 21px;
+  margin-bottom: 23px;
 }
 
 .offers__desc{
+  max-width: 284px;
 font-size: 14px;
 margin: 0;
 }
@@ -187,24 +201,22 @@ margin: 0;
 }
 
 .showplace__wrapper{
-  width: 400px;
+  padding-left: 40px;
+  padding-right: 40px;
   line-height: 21px;
   background-color: #81b3d2;
   color: #ffffff;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .showplace__head{
-  margin: 0;
+  margin-top: 46px;
   font-size: 21px;
 }
 
 .showplace__number{
-  padding-top: 29px;
-  padding-bottom: 30px;
+  margin-top: 23px;
+  margin-bottom: 21px;
 }
 
 .showplace__number,
@@ -212,14 +224,13 @@ margin: 0;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  margin: 0;
 }
 
 .advantages{
   background-color: #eeeeee;
   line-height: 21px;
-  padding-top: 50px;
-  padding-bottom: 64px;
+  padding-top: 46px;
+  padding-bottom: 60px;
 }
 
 .advantages__list{
@@ -231,12 +242,15 @@ margin: 0;
 }
 
 .advantages__item{
+  padding-left: 50px;
+  padding-right: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .advantages__head{
+  max-width: 100px;
   margin: 0;
   text-align: center;
 }
@@ -247,6 +261,7 @@ margin: 0;
 }
 
 .advantages__desc{
+  max-width: 258px;
   text-align: center;
 }
 
@@ -272,7 +287,7 @@ margin: 0;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  padding-top: 57px;
+  padding-top: 50px;
   margin: 0;
 }
 
@@ -280,13 +295,13 @@ margin: 0;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
-  margin-top: 38px;
-  margin-bottom: 52px;
+  margin-top: 23px;
+  margin-bottom: 48px;
 }
 
 .interested__button{
-  padding-top: 35px;
-  padding-bottom: 33px;
+  padding-top: 30px;
+  padding-bottom: 32px;
   width: 568px;
   margin: 0;
   background-color: #766357;
@@ -295,6 +310,7 @@ margin: 0;
   text-transform: uppercase;
   font-weight: 700;
   border: none;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -311,7 +327,7 @@ margin: 0;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  padding: 55px;
+  padding: 54px;
   background-color: #ffffff;
   box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
   min-width: 458px;
@@ -406,10 +422,6 @@ margin: 0;
   border: none;
 }
 
-button{
-  cursor: pointer;
-}
-
 .form__button{
   position: relative;
   width: 38px;
@@ -465,8 +477,8 @@ button{
 }
 
 .form__submit{
-  padding-top: 19px;
-  padding-bottom: 20px;
+  padding-top: 16px;
+  padding-bottom: 18px;
   width: 458px;
   background-color: #81b3d2;
   color: #ffffff;
@@ -493,13 +505,13 @@ button{
 .footer,
 .footer--absolut{
   background-color: rgba(255, 255, 255, 0.9);
-  height: 120px;
+  height: 124px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.footer--absolut{
+.footer--absolute{
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -889,10 +901,6 @@ button{
   color: rgba(0, 0, 0, 0.3);
 }
 
-.results__name{
-
-}
-
 .results__rating{
   text-align: center;
   background-color: #f2f2f2;
@@ -912,44 +920,12 @@ button{
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
-
-}
-
-.results__button{
-  border: none;
-}
-
-.results__button--blue{
-  background-color: #81b3d2;
-  margin-right: 6px;
-}
-
-.results__button--blue:hover{
-  background-color: #669ec0;
-}
-
-.results__button--blue:active{
-  background-color: #5496bd;
-}
-
-.results__button--brown{
-  background-color: #766357;
-}
-
-.results__button--brown:hover{
-  background-color: #604e43;
-}
-
-.results__button--brown:active{
-  background-color: #503e33;
 }
 
 .results__link{
-  margin-top: 8px;
-  margin-left: 17px;
-  margin-bottom: 8px;
-  margin-right: 17px;
+  padding: 4px 16px;
   font-size: 14px;
+  font-weight: 700;
   line-height: 21px;
   text-decoration: none;
   text-transform: uppercase;
@@ -959,6 +935,32 @@ button{
 .results__link:active{
   color: rgba(255, 255, 255, 0.3);
 }
+
+.results__link--blue{
+  background-color: #81b3d2;
+  margin-right: 6px;
+}
+
+.results__link--blue:hover{
+  background-color: #669ec0;
+}
+
+.results__link--blue:active{
+  background-color: #5496bd;
+}
+
+.results__link--brown{
+  background-color: #766357;
+}
+
+.results__link--brown:hover{
+  background-color: #604e43;
+}
+
+.results__link--brown:active{
+  background-color: #503e33;
+}
+
 
 @font-face{
   font-family: PTSans;
