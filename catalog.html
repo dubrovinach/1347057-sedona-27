@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <div class="wrapper">
@@ -17,8 +18,8 @@
             <a href="#" class="nav__link">Фото и видео</a>
           </li>
         </ul>
-        <a href="#" class="logo">
-          <img src="img/logo.png" alt="Логотип город Седона" class="logo__pic">
+        <a href="file:///Users/christina/Documents/GitHub/1347057-sedona-27/index.html" class="logo">
+          <img src="img/logo.png" width="140" height="71" alt="Логотип город Седона" class="logo__pic">
         </a>
         <ul class="nav__list nav__list--right">
           <li class="nav__item">
@@ -35,7 +36,7 @@
         <fieldset class="filter__fieldset">
           <legend class="filter__legend">Инфраструктура:</legend>
             <label class="filter__label">
-              <input type="checkbox" name="pool" id="pool" class="visually-hidden">
+              <input type="checkbox" name="pool" id="pool" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
               Бассейн
@@ -56,19 +57,19 @@
         <fieldset class="filter__fieldset">
           <legend class="filter__legend">Тип жилья:</legend>
             <label class="filter__label">
-              <input type="checkbox" name="hotel" id="hotel" class="visually-hidden">
+              <input type="checkbox" name="hotel" id="hotel" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
               Гостиница
             </label>
             <label class="filter__label">
-              <input type="checkbox" name="motel" id="motel" class="visually-hidden">
+              <input type="checkbox" name="motel" id="motel" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
               Мотель
             </label>
             <label class="filter__label">
-              <input type="checkbox" name="apartments" id="apartments" class="visually-hidden">
+              <input type="checkbox" name="apartments" id="apartments" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
               Апартаменты
@@ -116,8 +117,6 @@
       <section class="hotels">
         <h2 class="visually-hidden">Гостиницы</h2>
         <ul class="results">
-
-
           <li class="results__item">
             <img src="img/amara.jpg" width="135" height="90" alt="Фото гостиницы" class="results__pic">
           <div class="results__wrapper">
@@ -125,15 +124,11 @@
             <div class="results__container">
               <div class="results__name">
                 <p class="results__desc">Гостиница</p>
-                <button type="button" class="results__button results__button--blue">
-                  <a href="#" class="results__link">Подробнее</a>
-                </button>
+                <a href="#" class="results__link results__link--blue">Подробнее</a>
               </div>
               <div class="results__name">
                 <p class="results__desc">От 4000 Р.</p>
-                <button type="button" class="results__button results__button--brown">
-                  <a href="#" class="results__link">Забронировать</a>
-                </button>
+                <a href="#" class="results__link results__link--brown">Забронировать</a>
               </div>
             </div>
           </div>
@@ -149,9 +144,6 @@
           </div>
           </div>
           </li>
-
-
-
           <li class="results__item">
             <img src="img/desert.jpg" width="135" height="90" alt="Фото гостиницы" class="results__pic">
           <div class="results__wrapper">
@@ -159,15 +151,11 @@
             <div class="results__container">
               <div class="results__name">
                 <p class="results__desc">Мотель</p>
-                <button type="button" class="results__button results__button--blue">
-                  <a href="#" class="results__link">Подробнее</a>
-                </button>
+                <a href="#" class="results__link results__link--blue">Подробнее</a>
               </div>
               <div class="results__name">
                 <p class="results__desc">От 3000 Р.</p>
-                <button type="button" class="results__button results__button--brown">
-                  <a href="#" class="results__link">Забронировать</a>
-                </button>
+                <a href="#" class="results__link results__link--brown">Забронировать</a>
               </div>
             </div>
           </div>
@@ -182,9 +170,6 @@
           </div>
           </div>
           </li>
-
-
-
           <li class="results__item">
             <img src="img/villas.jpg" width="135" height="90" alt="Фото гостиницы" class="results__pic">
           <div class="results__wrapper">
@@ -192,15 +177,11 @@
             <div class="results__container">
               <div class="results__name">
                 <p class="results__desc">Апартаменты</p>
-                <button type="button" class="results__button results__button--blue">
-                  <a href="#" class="results__link">Подробнее</a>
-                </button>
+                <a href="#" class="results__link results__link--blue">Подробнее</a>
               </div>
               <div class="results__name">
                 <p class="results__desc">От 2000 Р.</p>
-                <button type="button" class="results__button results__button--brown">
-                  <a href="#" class="results__link">Забронировать</a>
-                </button>
+                <a href="#" class="results__link results__link--brown">Забронировать</a>
               </div>
             </div>
           </div>
@@ -215,42 +196,29 @@
           </div>
           </li>
         </ul>
-
-
-
-
-
-
       </section>
     </main>
     <footer class="footer">
       <div class="footer__wrapper">
         <a href="#" class="footer__hashtag">#visitSEDONA</a>
-        <a href="tel:+7(495) 666-02-66" class="footer__phone">Тел: +7(495) 666-02-66</a>
+        <a href="tel:+7(495)666-02-66" class="footer__phone">Тел: +7(495) 666-02-66</a>
       </div>
       <div class="social">
         <ul class="social__list">
-          <div class="social__wrapper">
             <li class="social__item">
-              <a href="#" class="social__link social__link-tw">
+              <a href="#" class="social__link">
                 <img src="img/twitter.svg" width="17" height="15" alt="Иконка твиттер"  class="social__icon">
               </a>
-            </li>
-          </div>
-          <div class="social__wrapper">
             <li class="social__item">
-              <a href="" class="social__link social__link-fb">
+              <a href="" class="social__link">
                 <img src="img/facebook.svg" width="12" height="22" alt="Иконка фэйсбук"  class="social__icon">
               </a>
             </li>
-          </div>
-          <div class="social__wrapper">
             <li class="social__item">
-              <a href="" class="social__link social__link-yt">
+              <a href="" class="social__link">
                 <img src="img/youtube.svg" width="20" height="16" alt="Иконка ютуб"  class="social__icon">
               </a>
             </li>
-          </div>
         </ul>
       </div>
       <div class="website-by">
