@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <div class="wrapper">
@@ -18,7 +18,7 @@
             <a href="#" class="nav__link">Фото и видео</a>
           </li>
         </ul>
-        <a href="file:///Users/christina/Documents/GitHub/1347057-sedona-27/index.html" class="logo">
+        <a href="index.html" class="logo">
           <img src="img/logo.png" width="140" height="71" alt="Логотип город Седона" class="logo__pic">
         </a>
         <ul class="nav__list nav__list--right">
@@ -56,19 +56,19 @@
         </fieldset>
         <fieldset class="filter__fieldset">
           <legend class="filter__legend">Тип жилья:</legend>
-            <label class="filter__label">
+            <label class="filter__label filter__label--housing">
               <input type="checkbox" name="hotel" id="hotel" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
               Гостиница
             </label>
-            <label class="filter__label">
+            <label class="filter__label filter__label--housing">
               <input type="checkbox" name="motel" id="motel" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
               Мотель
             </label>
-            <label class="filter__label">
+            <label class="filter__label filter__label--housing">
               <input type="checkbox" name="apartments" id="apartments" class="visually-hidden" checked>
               <span class="checkbox-indicator">
               </span>
@@ -199,11 +199,11 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__wrapper">
+      <div class="footer__wrapper footer__wrapper--hotels">
         <a href="#" class="footer__hashtag">#visitSEDONA</a>
         <a href="tel:+7(495)666-02-66" class="footer__phone">Тел: +7(495) 666-02-66</a>
       </div>
-      <div class="social">
+      <div class="social social--hotels">
         <ul class="social__list">
             <li class="social__item">
               <a href="#" class="social__link">
