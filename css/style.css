@@ -46,10 +46,6 @@ body{
   align-items: center;
 }
 
-.nav__link--active{
-  color: #766357;
-}
-
 .nav__link:hover{
 color: #81b3d2;
 }
@@ -402,11 +398,11 @@ margin: 0;
   fill: #a9a9a9;
 }
 
-.form__svg path:hover{
+.form__svg:hover path{
   fill: #000000;
 }
 
-.form__svg path:active{
+.form__svg:active path{
   fill: #81b3d2;
 }
 
@@ -507,7 +503,7 @@ margin: 0;
 }
 
 .footer,
-.footer--absolut{
+.footer--absolute{
   background-color: rgba(255, 255, 255, 0.9);
   height: 124px;
   display: flex;
@@ -592,11 +588,11 @@ margin: 0;
   fill: #231f20;
 }
 
-.website-by__svg path:hover{
+.website-by__svg:hover path{
   fill: #81b3d2;
 }
 
-.website-by__svg path:active{
+.website-by__svg:active path{
   fill: #bdbbbc;
 }
 
@@ -687,6 +683,10 @@ margin: 0;
 
 .filter__label input[type="checkbox"]:checked + .checkbox-indicator{
   outline: 2px solid orange;
+}
+
+.filter__label input[type="checkbox"]:disabled + .checkbox-indicator{
+  opacity: 0.3;
 }
 
 .filter__price{
