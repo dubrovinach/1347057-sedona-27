@@ -1,5 +1,5 @@
 body{
-  font-family: PTSans, Arial, Helvetica, sans-serif;
+  font-family: "PT Sans", "Arial", "Helvetica", sans-serif;
   color: #000000;
   text-transform: uppercase;
   margin: 0;
@@ -86,7 +86,7 @@ color: rgba(0, 0, 0, 0.3);
 }
 
 .intro{
-  padding-top: 56px;
+  padding-top: 57px;
   padding-left: 350px;
   padding-right: 350px;
   background-color: #ffffff;
@@ -95,7 +95,7 @@ color: rgba(0, 0, 0, 0.3);
 
 .intro__head{
   margin-top: 2px;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
   font-size: 21px;
   text-align: center;
 }
@@ -246,17 +246,18 @@ margin: 0;
 }
 
 .advantages__head{
+  margin: 0;
+  margin-top: 2px;
   font-size: 21px;
   font-weight: 700;
   line-height: 21px;
-  max-width: 100px;
-  margin: 0;
+  max-width: 120px;
   text-align: center;
 }
 
 .advantages__number{
   padding-top: 23px;
-  padding-bottom: 22px;
+  padding-bottom: 21px;
 }
 
 .advantages__desc{
@@ -362,6 +363,11 @@ margin: 0;
   flex-grow: 1;
 }
 
+.form__container{
+  position: relative;
+  -ms-flex-grow: 1;
+}
+
 .form__input{
   box-sizing: border-box;
   width: 100%;
@@ -447,6 +453,14 @@ margin: 0;
   background-color: #a9a9a9;
 }
 
+.form__button--minus:hover::before{
+  background-color: #000000;
+}
+
+.form__button--minus:active::before{
+  background-color: #81b3d2;
+}
+
 .form__button--plus::before,
 .form__button--plus::after{
   content: "";
@@ -463,6 +477,16 @@ margin: 0;
   transform: translate(-50%, -50%) rotate(90deg);
 }
 
+.form__button--plus:hover::before,
+.form__button--plus:hover::after{
+  background-color: #000000;
+}
+
+.form__button--plus:active::before,
+.form__button--plus:active::after{
+  background-color: #81b3d2;
+}
+
 .form__checkin-input:hover{
   background-color: #ebebeb;
 }
@@ -477,9 +501,9 @@ margin: 0;
 }
 
 .form__submit{
-  margin-top: 55px;
-  padding-top: 16px;
-  padding-bottom: 18px;
+  margin-top: 54px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   width: 458px;
   background-color: #81b3d2;
   color: #ffffff;
@@ -518,13 +542,12 @@ margin: 0;
 .footer__wrapper{
   margin-right: auto;
   margin-left: 123px;
-  margin-top: 31px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
 }
 
 .footer__hashtag{
-  margin-top: 20;
   margin-bottom: 6px;
 }
 
@@ -537,7 +560,7 @@ margin: 0;
 }
 
 .social{
-  margin-top: 20px;
+  margin-top: 19px;
   margin-right: 44px;
 }
 
@@ -571,7 +594,7 @@ margin: 0;
 
 .website-by{
   display: flex;
-  margin-top: 39px;
+  margin-top: 38px;
   margin-left: auto;
   margin-right: 101px;
 }
@@ -770,7 +793,8 @@ margin: 0;
 }
 
 .filter__toggle:hover {
-  border: 10px solid;
+  width: 6px;
+  height: 6px;
   background: #1c4f80;
 }
 
