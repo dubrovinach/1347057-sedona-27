@@ -347,6 +347,7 @@ margin: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 26px;
+  white-space: nowrap;
 }
 
 .form__label--adults{
@@ -363,15 +364,11 @@ margin: 0;
   flex-grow: 1;
 }
 
-.form__container{
-  position: relative;
-  -ms-flex-grow: 1;
-}
-
 .form__input{
   box-sizing: border-box;
   width: 100%;
   padding: 4px 10px;
+  height: 38px;
   font-weight: 700;
   font-size: 14px;
   line-height: 26px;
@@ -447,6 +444,8 @@ margin: 0;
 .form__button--minus::before{
   content: "";
   position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   width: 12px;
   height: 3px;
