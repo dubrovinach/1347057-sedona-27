@@ -806,8 +806,7 @@ body {
 }
 
 .filter__toggle:hover {
-  width: 6px;
-  height: 6px;
+  transform: scale(1.1);
   background: #1c4f80;
 }
 
@@ -1056,15 +1055,15 @@ body {
 }
 
 @font-face {
-  font-family: PTSans;
-  src: url(../fonts/web/ptsans.woff2) format("woff2"),
-    url(../fonts/web/ptsans.woff) format("woff");
+  font-family: "PTSans";
+  src: url(../fonts/ptsans.woff2) format("woff2"),
+    url(../fonts/ptsans.woff) format("woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: PTSans;
-  src: url(../fonts/web/ptsansbold.woff2) format("woff2"),
-    url(../fonts/web/ptsansbold.woff) format("woff");
+  font-family: "PTSans";
+  src: url(../fonts/ptsansbold.woff2) format("woff2"),
+    url(../fonts/ptsansbold.woff) format("woff");
   font-weight: 700;
 }
