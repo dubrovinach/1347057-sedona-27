@@ -692,15 +692,17 @@ margin: 0;
 }
 
 .filter__label input[type="checkbox"] + .checkbox-indicator{
-  content: url(../img/checkbox-off.svg);
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
+  width: 27px;
+  height: 23px;
+  background: transparent url(../img/checkbox-off.svg) no-repeat left;
 }
 
 .filter__label input[type="checkbox"]:checked + .checkbox-indicator{
-  content: url(../img/checkbox-on.svg);
-  position: absolute;
+  background-image: url(../img/checkbox-on.svg);
 }
 
 .filter__label input[type="checkbox"]:checked + .checkbox-indicator{
