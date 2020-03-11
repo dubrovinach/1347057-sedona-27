@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="wrapper">
@@ -12,10 +12,10 @@
       <nav class="nav">
         <ul class="nav__list nav__list--left">
           <li class="nav__item">
-            <a href="#" class="nav__link nav__link">Информация</a>
+            <a href="#" class="nav__link nav__link--left">Информация</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Фото и видео</a>
+            <a href="#" class="nav__link nav__link--left">Фото и видео</a>
           </li>
         </ul>
         <a href="#" class="logo">
@@ -23,10 +23,10 @@
         </a>
         <ul class="nav__list nav__list--right">
           <li class="nav__item">
-            <a href="#" class="nav__link">Карта штата</a>
+            <a href="#" class="nav__link nav__link--right">Карта штата</a>
           </li>
           <li class="nav__item">
-            <a href="catalog.html" class="nav__link">Гостиницы</a>
+            <a href="catalog.html" class="nav__link nav__link--right">Гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -163,7 +163,7 @@
       </section>
       <section class="map">
         <h2 class="visually-hidden">Карта Седоны</h2>
-        <img src="img/map.png" width="1200" height="593" alt="Карта" class="map__pic">
+        <iframe src="img/map.png" width="1200" height="593" alt="Карта" class="map__pic"></iframe>
       </section>
     </main>
     <footer class="footer footer--absolute">
