@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.min.css">
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <div class="wrapper">
@@ -12,21 +12,21 @@
       <nav class="nav">
         <ul class="nav__list nav__list--left">
           <li class="nav__item">
-            <a href="#" class="nav__link">Информация</a>
+            <a href="#" class="nav__link nav__link--left">Информация</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Фото и видео</a>
+            <a href="#" class="nav__link nav__link--left">Фото и видео</a>
           </li>
         </ul>
-        <a href="index.html" class="logo">
+        <a href="#" class="logo">
           <img src="img/logo.png" width="140" height="71" alt="Логотип город Седона" class="logo__pic">
         </a>
         <ul class="nav__list nav__list--right">
           <li class="nav__item">
-            <a href="#" class="nav__link">Карта штата</a>
+            <a href="#" class="nav__link nav__link--right">Карта штата</a>
           </li>
           <li class="nav__item">
-            <a href="catalog.html" class="nav__link">Гостиницы</a>
+            <a href="catalog.html" class="nav__link nav__link--right nav__link--active">Гостиницы</a>
           </li>
         </ul>
       </nav>
@@ -89,8 +89,8 @@
             <div class="filter__scale">
               <div class="filter__bar"></div>
             </div>
-            <div class="filter__toggle filter__toggle--min"></div>
-            <div class="filter__toggle filter__toggle--max"></div>
+            <button type="button" class="filter__toggle filter__toggle--min"></button>
+            <button type="button" class="filter__toggle filter__toggle--max"></button>
           </div>
           <button type="submit" class="filter__button">Показать</button>
         </fieldset>
@@ -98,16 +98,18 @@
       <div class="sort">
         <p class="sort__search">Найдено: 3</p>
         <p class="sort__assortment">Сортировка:</p>
-        <a href="#" class="sort__choose">По цене</a>
+        <a href="#" class="sort__choose sort__choose--active">По цене</a>
         <a href="#" class="sort__choose">По типу</a>
         <a href="#" class="sort__choose">По рейтингу</a>
         <div class="sort__href">
           <a href="#" class="sort__button">
-            <svg xmlns="http://www.w3.org/2000/svg" class="sort__arrow sort__arrow--up" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="sort__arrow sort__arrow--up" width="11" height="10" viewBox="0 0 11 10">
+              <path fill="#231F20" d="M5.5 10L0 0h11" />
             </svg>
           </a>
           <a href="#" class="sort__button">
-            <svg xmlns="http://www.w3.org/2000/svg" class="sort__arrow sort__arrow--down" width="11" height="10" viewBox="0 0 11 10"><path fill="#231F20" d="M5.5 10L0 0h11" />
+            <svg xmlns="http://www.w3.org/2000/svg" class="sort__arrow sort__arrow--down sort__arrow--down--active" width="11" height="10" viewBox="0 0 11 10">
+              <path fill="#231F20" d="M5.5 10L0 0h11" />
             </svg>
           </a>
         </div>
