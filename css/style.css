@@ -451,6 +451,14 @@ body {
   max-width: 458px;
 }
 
+.form__hide{
+  display: none;
+}
+
+.form__show{
+  display: block;
+}
+
 .form__row {
   display: -webkit-box;
   display: -ms-flexbox;
