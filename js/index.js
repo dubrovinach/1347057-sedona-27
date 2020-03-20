@@ -22,6 +22,7 @@
     evt.preventDefault();
     popup.classList.toggle("form--hidden");
     popup.classList.remove("form--error");
+    popup.classList.toggle("form--show");
     checkin.focus();
     if (storageAdults) {
       adults.value = storageAdults;
@@ -45,19 +46,22 @@
       } else if (!adults.value) {
         adults.focus();
       } else child.focus();
-    } else {
-      if (isStorageSupport) {
-      localStorage.setItem("adults", adults.value);
-      localStorage.setItem("child", child.value);
-      }
     }
   });
+
+  adults.addEventListener('input', function (evt) {
+    localStorage.setItem('adults', evt.target.value)
+  })
+
+  child.addEventListener('input', function (evt) {
+    localStorage.setItem('child', evt.target.value)
+  })
 
   window.addEventListener("keydown", function (evt) {
     if (evt.keyCode === 27) {
       if (popup.classList.contains("form--show")) {
         evt.preventDefault();
-        popup.classList.remove("form--show");
+        popup.classList.add("form--hidden");
         popup.classList.remove("form--error");
       }
     }
